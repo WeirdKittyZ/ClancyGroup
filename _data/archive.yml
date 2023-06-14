@@ -4,6 +4,4 @@
 - type: dates
   title: Dates
   url: /dates/
-- type: fields
-  title: Fields
-  url: /fields/
+
