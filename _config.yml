@@ -31,8 +31,7 @@ exclude:
 logo: logo.png
 social:
   name: kitty
-  links:
-    - https://github.com
+  links: https://weirdkittyz.github.io/
 lang: en
 
 sass:
@@ -51,4 +50,4 @@ sass:
 author:
   name: kitty
   url: WeirdKittyZ.github.io
-  email: kitty@gmail.com
+  email: 
