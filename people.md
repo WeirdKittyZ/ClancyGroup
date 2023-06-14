@@ -11,7 +11,7 @@ do goHome.mac
 ![placeholder](/kitty.jpeg){: .align-center}
 
 ## The Chatty Owl  _(monoY)_
-This is weird kitty's friend, she is a chatty owl
+This is weird kitty's friend, she is a chatty owl, and she can do some physics too... 
 ![placeholder](/owl.jpeg){: .align-center}
 
 ## The %^& Duck?   _(davesX)_
