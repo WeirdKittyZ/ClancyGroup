@@ -11,6 +11,10 @@ do goHome.mac
 ```
 ![placeholder](/kitty.jpeg){: .align-center}
 
+<p align="center">
+  <img src="/kitty.jpeg">
+</p>
+
 ## The Chatty Owl _(monoY)_
 This is weird kitty's friend, she is a chatty owl
 ![placeholder](/owl.jpeg){: .align-center}
