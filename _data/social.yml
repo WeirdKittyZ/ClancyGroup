@@ -1,6 +1,10 @@
 - title: Email
-  url: mailto://123@gmail.com
+  url: mailto://ziy2@mcmaster.ca
   icon: fas fa-envelope
 - title: GitHub
   url: https://github.com/WeirdKittyZ
   icon: fab fa-github
+- title: Instagram
+  url: https://github.com/WeirdKittyZ
+  icon: fa fa-instagram
+
