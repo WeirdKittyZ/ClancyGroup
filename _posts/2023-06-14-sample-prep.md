@@ -2,7 +2,7 @@
 layout: post
 title: how to prepare samples 
 date: 2023-06-14
-author: The Owl 
+author: Chatty Owl  
 tags: 
   - UsefulStuff 
   - crystal synthesis
