@@ -1,9 +1,9 @@
-- type: info1
-  title: info1
-  url: /info1/
-- type: UsefulStuff
-  title: Useful Stuff
-  url: /UsefulStuff/
+- type: fields
+  title: Fields
+  url: /Fields/
+- type: dates
+  title: Dates
+  url: /Dates/
 - type: info3
   title: info3
   url: /info3/
