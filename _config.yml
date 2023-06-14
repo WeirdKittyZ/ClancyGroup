@@ -30,7 +30,7 @@ exclude:
 # Optimize Jekyl SEO Tag
 logo: logo.png
 social:
-  name: kitty
+  name: The Weird Kitty
   links: https://weirdkittyz.github.io/
 lang: en
 
@@ -48,6 +48,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: kitty
+  name: The Weird Kitty
   url: WeirdKittyZ.github.io
   email: 
