@@ -1,9 +1,9 @@
 - type: fields
   title: Fields
-  url: /Fields/
+  url: /fields/
 - type: dates
   title: Dates
-  url: /Dates/
+  url: /dates/
 - type: info3
   title: info3
   url: /info3/
