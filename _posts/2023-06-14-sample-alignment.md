@@ -2,7 +2,7 @@
 layout: post
 title: How to align crystals at QM2
 date: 2023-06-14
-author: The Owl 
+author: Chatty Owl  
 tags: 
   - UsefulStuff 
   - QM2
