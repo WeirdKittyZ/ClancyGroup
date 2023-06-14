@@ -1,8 +1,7 @@
 ---
 layout: page
-title: People
+title: Weird kitty and her scattered friends
 ---
-## _Weird kitty and her scattered friends_
 
 ## The Weird Kitty  _(cryZ)_
 So, this kitty can do some physics... and she really wants to:
