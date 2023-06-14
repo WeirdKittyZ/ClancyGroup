@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Weird kitty and her scattered friends
+title: Weird Kitty and Her Scattered Friends
 ---
 
 ## The Weird Kitty  _(cryZ)_
