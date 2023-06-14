@@ -1,9 +1,9 @@
-- type: fields
-  title: Fields
-  url: /fields/
-- type: dates
-  title: Dates
-  url: /dates/
 - type: tags
   title: Topics
   url: /tags/
+- type: dates
+  title: Dates
+  url: /dates/
+- type: fields
+  title: Fields
+  url: /fields/
