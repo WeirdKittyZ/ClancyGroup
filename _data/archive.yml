@@ -4,6 +4,6 @@
 - type: dates
   title: Dates
   url: /dates/
-- type: info3
-  title: info3
-  url: /info3/
+- type: tags
+  title: Topics
+  url: /tags/
