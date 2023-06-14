@@ -4,8 +4,11 @@ title: People
 ---
 ## _Weird kitty and her scattered friends_
 
-## The weird Kitty
-
+## The Weird Kitty
+I want to
+```sh
+do goHome.mac
+```
 ## The Chatty Owl 
 
 ## The %^& Duck?
