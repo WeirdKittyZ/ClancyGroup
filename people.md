@@ -14,6 +14,6 @@ do goHome.mac
 This is weird kitty's friend, she is a chatty owl, and she can do some physics too... 
 ![placeholder](/owl.jpeg){: .align-center}
 
-## The %^& Duck?   _(davesX)_
+## The Hyperational Ducky   _(davesX)_
 need permission for this one 
 
