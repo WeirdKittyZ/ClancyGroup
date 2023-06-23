@@ -52,6 +52,10 @@ toc:  true
 ## Data Processing
 <a href="http://bokeh.org/">Bokeh</a>
 
+<a href="https://magicplot.com/index.php#home">MagicPlot</a>
+- <a href="https://magicplot.com/wiki/manual">MagicPlot User Guide</a>
+
+
 
 
 ## Useful Online Lectures
