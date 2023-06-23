@@ -9,4 +9,4 @@ math: true
 toc:  true
 ---
 
-Click <a href="https://github.com/Dobrowod/SpecReader">here</a> to download :shushing_face:
+Click <a href="https://github.com/Dobrowod/SpecReader">here</a> to download
