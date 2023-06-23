@@ -8,7 +8,7 @@ math: true
 toc:  true
 ---
 
-## Crystal structure visualizer 
+## Crystal Structure Visualizer 
 <a href="https://jp-minerals.org/vesta/en/download.html">VESTA</a> (app)
 - 3D, can move crystal around
 
@@ -18,11 +18,11 @@ toc:  true
 ## Crystallography 
 <a href="http://img.chem.ucl.ac.uk/sgp/large/sgp.htm">Space Group Diagrams and Tables</a>
 
+<a href="https://www.cryst.ehu.es/cgi-bin/cryst/programs/nph-wp-list">Wyckoff Positions</a>
 
+<a href="http://abulafia.mt.ic.ac.uk/shannon/ptable.php">Database of Ionic Radii</a>
 
-<a href=""></a>
-
-## refinement program:
+## Refinement Program
 <a href="https://www.ill.eu/sites/fullprof/php/downloads.html">FullProf</a> (app)
 
 <a href="https://icsd-fiz-karlsruhe-de.libaccess.lib.mcmaster.ca/search/basic.xhtml;jsessionid=6FAAD006C7DC776D497945357FCAD835">ICSD</a>  (website)
@@ -45,6 +45,7 @@ toc:  true
 
 <a href="https://bruceravel.github.io/demeter/documents/Athena/index.html">ATHENA</a>
 - XAS Data Processing
+- How to use Athena:  <a href="https://www.youtube.com/playlist?list=PLyzX_pouV65vbohf_puwlg9fGNjJGpKpd">EXAFS, XANES Data fitting using Athena (By Bruce Ravel)</a>
 
 
 
