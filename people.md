@@ -32,7 +32,7 @@ This is also Weird Kitty's friend, he does some physics and coding... and if you
 > 
 > ---By The Hyperrational Ducky, At the Border.
 > 
-> :roll_eyes: :roll_eyes:
+> &#128580, &#128580
 > 
 > ---By The Others, In the Car.
 
