@@ -4,7 +4,9 @@ title: Weird Kitty and Her Scattered Friends
 ---
 
 ## The Weird Kitty  _(cryZ)_
-So, this kitty can do some physics...doesn't want to write...and She wants to have the viscacha lifestyle: _Finding moments of peacefulness in the cruel nature._
+So, this kitty can do some physics...doesn't want to write...and She wants to have the viscacha lifestyle:
+
+<p align="center"> <em>Finding moments of peacefulness in the cruel nature.</em> </p>
 
 So, she really wants to:
 ```sh
@@ -15,7 +17,7 @@ do goHome.mac
 ## The Chatty Owl  _(monoY)_
 This is Weird Kitty's friend, she is Chatty Owl, and she can do some physics too... She is very strong... 
 
-> I can take down everyone in this group :slightly_smiling_face:.
+> I can take down everyone in this group.
 > 
 > ---The Chatty Owl
 
@@ -31,10 +33,7 @@ This is also Weird Kitty's friend, he does some physics and coding... and if you
 > "We were doing an experiment..."
 > 
 > ---By The Hyperrational Ducky, At the Border.
-> 
-> &#128580, &#128580
-> 
-> ---By The Others, In the Car.
+
 
 Also check out his useful <a href="https://github.com/Dobrowod?tab=repositories">code</a>.
 
