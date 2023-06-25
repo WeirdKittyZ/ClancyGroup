@@ -23,3 +23,6 @@ This is also weird kitty's friend, he does some physics and coding... and if you
 Also check out his useful <a href="https://github.com/Dobrowod?tab=repositories">code</a>.
 
 ![placeholder](/duck.jpeg){: .align-center}
+
+## The Kind Capybara
+He is the boss. 
