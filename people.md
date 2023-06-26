@@ -40,5 +40,8 @@ Also check out his useful <a href="https://github.com/Dobrowod?tab=repositories"
 ![placeholder](/duck.jpeg){: .align-center}
 
 ## The Kind Capybara
-He is the boss. 
+
+<p align="center"><b>The boss.</b></p>
+
+
 ![placeholder](/capybara.jpeg){: .align-center}
