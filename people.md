@@ -41,3 +41,4 @@ Also check out his useful <a href="https://github.com/Dobrowod?tab=repositories"
 
 ## The Kind Capybara
 He is the boss. 
+![placeholder](/capybara.jpeg){: .align-center}
