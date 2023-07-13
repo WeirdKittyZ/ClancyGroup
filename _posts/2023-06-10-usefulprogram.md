@@ -22,6 +22,12 @@ toc:  true
 
 <a href="http://abulafia.mt.ic.ac.uk/shannon/ptable.php">Database of Ionic Radii</a>
 
+<a href="http://www.jcrystal.com/products/winwulff/">WinWulff</a>
+- Plot stereographic projections of (hkl) and [uvw] vectors 
+
+<a href="http://jcrystal.com/products/winlaue/index.htm">WinLaue</a>
+- Plot forward and backward Lauegrams
+
 ## Refinement Program
 <a href="https://www.ill.eu/sites/fullprof/php/downloads.html">FullProf</a> (app)
 
