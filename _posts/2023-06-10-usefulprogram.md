@@ -41,6 +41,9 @@ toc:  true
 - Single crystal refinement
 - <a href="https://www.chem.ubc.ca/sites/default/files/wysiwyg_uploads/facilities/x-ray/ilia_guzei_notes_on_olex2.pdf">note</a>
 
+## Synchrotron
+<a href="https://certif.com/spec_manual/idx.html">spec: User Manual and Tutorials</a>
+
 ## XAS
 <a href="https://pypi.org/project/reixs/">CLS REIXS Analysis</a>
  
@@ -69,5 +72,10 @@ toc:  true
 
 <a href="https://ocw.mit.edu/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/pages/crystalline-materials/15-introduction-to-crystallography/">Basic idea of x-ray diffraction</a> (lec 15-18)
 
+
+
+
 <a href=""></a>
 <a href=""></a>
+
+
