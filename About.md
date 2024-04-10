@@ -3,6 +3,10 @@ layout: page
 title: About
 ---
 ![placeholder](/capybara_family.jpeg){: .align-center}
-_This website is dedicated to supporting small animals struggling to survive in a special community within the McMaster forest.
-These creatures need information that is crucial for survival. However, finding these resources online can often be a daunting task. That's why Weird Kitty and her friends constructed this simple database, serving as a virtual toolbox where we would hopefully gather all the essential information and useful links. Our primary aim is to minimize the time and effort required for current and future animals joining this community, and hopefully, they could enjoy more sunlight than screen light._
+
+<center>
+The First Generation of the Capybara Family.
+</center>
+
+_This website is dedicated to the current and future members of the Capybara family. Weird Kitty and her friends have created this toolkit, which includes some useful links and notes. We hope you can enjoy more neutrino therapy than spending countless hours staring at a computer screen, trying to decide what to do next._
 
