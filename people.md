@@ -39,6 +39,10 @@ Also check out his useful <a href="https://github.com/Dobrowod?tab=repositories"
 
 ![placeholder](/duck.jpeg){: .align-center}
 
+## The Stalkerish Squid   _(motor name tbd)_
+The new person 
+![placeholder](/pic.jpeg){: .align-center}
+
 ## The Kind Capybara
 
 <p align="center"><b>The boss.</b></p>
