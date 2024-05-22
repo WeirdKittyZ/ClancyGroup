@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Useful Program / Website for the Group
-date: 2023-06-23
+date: 2024-05-01
 tags: 
   - UsefulStuff
 math: true
@@ -64,6 +64,10 @@ toc:  true
 <a href="https://magicplot.com/index.php#home">MagicPlot</a>
 - <a href="https://magicplot.com/wiki/manual">MagicPlot User Guide</a>
 
+<a href="https://nexpy.github.io/nexpy/includeme.html">Nexpy</a>
+-  High-level Python interface to HDF5 files, particularly those stored as NeXus data.
+-  for windows: don't download nexpy in base, create a new Conda environment
+-  conda create --name myenv python=3.9
 
 
 
