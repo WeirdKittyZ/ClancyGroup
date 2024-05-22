@@ -42,7 +42,7 @@ toc:  true
 - <a href="https://www.chem.ubc.ca/sites/default/files/wysiwyg_uploads/facilities/x-ray/ilia_guzei_notes_on_olex2.pdf">note</a>
 
 ## Synchrotron
-<a href="https://certif.com/spec_manual/idx.html">spec: User Manual and Tutorials</a>
+<a href="https://certif.com/spec_manual/idx.html">SPEC: User Manual and Tutorials</a>
 
 ## XAS
 <a href="https://pypi.org/project/reixs/">CLS REIXS Analysis</a>
@@ -50,12 +50,14 @@ toc:  true
 <a href="https://www.quanty.org/start">Quanty</a>
 - A quantum many body script language
 
+<a href="https://quad.x-ray.center/">QUAD</a>
+- QUAD is a scientific software to calculate the x-ray scattering of light of strained crystals by solving the Maxwell-equations exactly.
+
 <a href="https://xafs.xrayabsorption.org/">XAFS</a>
 
 <a href="https://bruceravel.github.io/demeter/documents/Athena/index.html">ATHENA</a>
 - XAS Data Processing
 - How to use Athena:  <a href="https://www.youtube.com/playlist?list=PLyzX_pouV65vbohf_puwlg9fGNjJGpKpd">EXAFS, XANES Data fitting using Athena (By Bruce Ravel)</a>
-
 
 
 ## Data Processing
@@ -66,11 +68,16 @@ toc:  true
 
 <a href="https://nexpy.github.io/nexpy/includeme.html">Nexpy</a>
 -  High-level Python interface to HDF5 files, particularly those stored as NeXus data.
--  for windows: don't download nexpy in base, create a new Conda environment
--  conda create --name myenv python=3.9
+-  For windows: don't download nexpy in base, create a new Conda environment
+ ```sh
+conda create --name nexpyenv python=3.9
+conda activate nexpyenv
+conda deactivate nexpyenv
+```
 
-
-
+<a href="https://pymca.sourceforge.net/download.html">PyMca</a>
+-  GUI to plot and quickly visualize synchrotron data.
+  
 ## Useful Online Lectures
 <a href="https://neutrons.ornl.gov/nxs/2021/lectures">Oak Ridge summer school</a>
 
