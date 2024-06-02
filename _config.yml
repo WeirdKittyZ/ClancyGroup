@@ -3,10 +3,9 @@ title: "Weird Kitty"
 description: "Weird Kitty's Website"
 url: "WeirdKittyZ.github.io"
 avatar: /avatar.jpeg
-paginate: 5
+paginate: 10
 permalink: pretty
 cover_image: /bg.jpeg
-
 
 # Gems
 plugins:
@@ -16,7 +15,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# Optimize Jekyll
+# Optimize Jekyll. This section is useful for files that are not meant to be served publicly
 exclude:
   - .editorconfig
   - .git
@@ -39,16 +38,8 @@ sass:
   sass_dir: _sass
   style: :compressed
 
-# Options
-
-# Replace this value and uncomment to enable Google Analytics tracking
-# google_analytics: UA-000000-0
-
-# Replace this value and uncomment to enable Disqus
-# disqus: xxxxxx
-
 # Specify the author for blog posts
 author:
   name: The Weird Kitty
   url: WeirdKittyZ.github.io
-  email: 
+  email: ziy2@mcmaster.ca
