@@ -9,4 +9,4 @@ toc:  true
 ---
 
 
-[Steps:](/SCXRD.pdf)
+[Notes](PostFile/SCXRD.pdf)
