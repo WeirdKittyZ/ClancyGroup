@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Weird Kitty and Her Scattered Friends
+permalink: /People/
 ---
 
 ## The Weird Kitty  _(cryZ)_
