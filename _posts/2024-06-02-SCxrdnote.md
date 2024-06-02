@@ -9,4 +9,4 @@ toc:  true
 ---
 
 
-[Steps:](use bruker D8 venture duo.pdf)
+[Steps:](SCXRD.pdf)
