@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /About/
 ---
 ![placeholder](Pic/capybara_family.jpeg){: .align-center}
 
