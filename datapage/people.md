@@ -13,10 +13,10 @@ So, she really wants to:
 ```sh
 do goHome.mac
 ```
-![placeholder](Pic/kitty.jpeg){: .align-center}
+![placeholder](/Pic/kitty.jpeg){: .align-center}
 
 ## The Chatty Owl  _(monoY)_
-This is Weird Kitty's friend, she is Chatty Owl, and she can do some physics too... She is very strong... 
+This is Weird Kitty's friend, she is Chatty Owl (aka. The Cold Finger), and she can do some physics too... She is very strong...  
 
 > I can take down everyone in this group.
 > 
@@ -27,7 +27,7 @@ She can run... and she runs **a lot**... When Weird Kitty sees her run, she want
 >
 >---Osamu Dazai
 
-![placeholder](Pic/owl.jpeg){: .align-center}
+![placeholder](/Pic/owl.jpeg){: .align-center}
 
 ## The Hyperational Ducky   _(davesX)_
 This is also Weird Kitty's friend, he does some physics and coding... and if you let this Hyperrational Ducky decide where to go for group lunch, we'd all starve to death...
@@ -38,11 +38,11 @@ This is also Weird Kitty's friend, he does some physics and coding... and if you
 
 Also check out his useful <a href="https://github.com/Dobrowod?tab=repositories">code</a>.
 
-![placeholder](Pic/duck.jpeg){: .align-center}
+![placeholder](/Pic/duck.jpeg){: .align-center}
 
 ## The Stalkerish Ocelot
 The new character, she is good at searching stuff... like actual useful stuff. 
-![placeholder](Pic/ocelot.jpeg){: .align-center}
+![placeholder](/Pic/ocelot.jpeg){: .align-center}
 
 ## The Peaceful Capybara
 
