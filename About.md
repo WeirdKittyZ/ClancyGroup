@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-![placeholder](/capybara_family.jpeg){: .align-center}
+![placeholder](Pic/capybara_family.jpeg){: .align-center}
 
 <center>
 The First Generation of the Capybara Family.
