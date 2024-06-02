@@ -2,10 +2,10 @@
 title: "Weird Kitty"
 description: "Weird Kitty's Website"
 url: "WeirdKittyZ.github.io"
-avatar: /kitty.jpeg
+avatar: Pic/kitty.jpeg
 paginate: 10
 permalink: pretty
-cover_image: /bg.jpeg
+cover_image: Pic/bg.jpeg
 
 # Gems
 plugins:
