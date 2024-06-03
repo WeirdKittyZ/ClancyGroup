@@ -4,7 +4,7 @@ title: Rietveld Refinement
 date: 2024-06-03
 author: Weird Kitty
 tags: 
-  - UsefulStuff 
+  - Crystal-Synthesis-Characterization 
 toc:  true
 ---
 
