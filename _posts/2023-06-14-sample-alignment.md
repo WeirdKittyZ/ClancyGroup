@@ -34,7 +34,7 @@ FOURC> umv phi 270 Do it iteratively until the center of the axis match the samp
 4.  Set expected lattice parameters (SPEC command: setlat).
 
 
-## Defining the orientation Matrix
+## Defining the Orientation Matrix
 1. Orient the crystal such that the beam is scattering off of a known plane. To do this, move detector to corresponding hkl (umvr tth) and move theta to tth/2.
 
 2. If you have an area detector, look for a peak. If you successfully identify one, move the peak into the detector’s region of integration (ROI) (by moving chi and 2theta). If not, tweak theta and/or theta (since it might be off screen). If not, the plane has been misidentified. Make sure that the found peak is relatively close to the detector’s ROI.
