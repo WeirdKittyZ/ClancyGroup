@@ -49,4 +49,4 @@ The new character, she is good at searching stuff... like actual useful stuff.
 <p align="center"><b>The boss.</b></p>
 
 
-![placeholder](Pic/capybara.jpeg){: .align-center}
+![placeholder](/Pic/capybara.jpeg){: .align-center}
