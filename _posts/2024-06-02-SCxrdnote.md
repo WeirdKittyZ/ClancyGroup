@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Single Crystal XRD
-date: 2024-06-2
+date: 2024-06-02
 author: 
   - Weird Kitty
   - Hyperational Ducky  
