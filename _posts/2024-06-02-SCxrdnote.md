@@ -13,8 +13,9 @@ _This is a guide for conducting Single Crystal XRD using Bruker D8 Venture Duo w
 
 **On APEX4:**
 
-<mark>Left side bar</mark> and **_right side window_**
-1. Create new project New sample (top left) (always save other people’s old projects), fill in crystal information.
+<mark>Left Side Bar</mark> and **_Right Side Window_**
+
+Create new project New sample (top left) (always save other people’s old projects), fill in crystal information.
 
 **On diffractometer:**
 - Mount crystal
@@ -25,46 +26,55 @@ _This is a guide for conducting Single Crystal XRD using Bruker D8 Venture Duo w
 - Turn on the light bottom at right side of the diffractometer
 
 **On APEX4:**
-<mark>*Left side bar**</mark> and <mark>right side window</mark>
-<mark>**Set UP**</mark> -> <mark>**Center Crystal**</mark>: Click <mark>Center</mark> once mounted
-- Open doors on di􀆯ractometer
+
+<mark>Left Side Bar</mark> and **_Right Side Window_**
+
+<mark>Set UP</mark> -> <mark>Center Crystal</mark>: Click **_Center_** once mounted
+
+**On diffractometer:**
+- Open doors on diffractometer (always close the door when detector is moving)
 - Align once, rotate 90
 - Align again, rotate 90
 - Align again, rotate 180
 - Rotate around to check if it is centered
-- Once it can rotate without misalignment use the camara to take measurement of crystal
-size (each tick is 20 micron (0.02mm), radius is 100 micron (0.1mm))
-- Put the size in Set UP -> Describe
-Evaluate -> Determine unit cell
-- Run (it will go through each step automatically to find a unit cell), if the unit cell is not
-right, you can manually adjust the threshold, and manually go through the process.
-Collect -> Calculate Strategy
-Anode: Mo, Resolution: 0.4A for solid state
-Symmetry: lower than your space group, check the HKL range at top window, make sure cover both
-positive and negative HKL
-Parameters for the strategy determination:
-Crystal to detector: 40mm standard (50mm if long axis), click ok
-Shortest normalized exposure time: 0.5
-Select Scan Parameter:
-Frame angle: 0.5 degree,
-Frame time: depending on crystal can change time per step, <5s. we use 2 sec for iridates
-Collect -> Run Experiment
-Add Crystal video into 2
-Append strategy
-Validate to make sure it’ll run
-Execute
-After collection:
-Evaluate -> Determine unit cell
-Select image (folder at top), don’t use fast scans use actual scans (samplename_001),
-when you go to last scan should be _0180
-Harvest spots
-Min I/signal = 3, harvest
-Once harvested, index, index
-Pick group, accept, set
-Bravais, select one you want
-Refine, use more peak, refine until it converge, now have new unit cell
-With the new unit cell, start processing:
-Reduce data -> integrated images:
+- Once it can rotate without misalignment use the camara to take measurement of crystal. _size (each tick is 20 micron (0.02mm), radius is 100 micron (0.1mm))_
+
+**On APEX4:**
+1. Put the size in <mark>Set UP</mark> -> <mark>Describe</mark>
+
+2. <mark>Evaluate</mark> -> <mark>Determine unit cell</mark>
+- **_Run_** (it will go through each step automatically to find a unit cell), if the unit cell is not right, you can manually adjust the threshold (MIn.I/sigma to 3), and manually go through the process.
+  
+3. <mark>Collect</mark> -> <mark>Calculate Strategy</mark>
+- **_Anode_**: Mo, **_Resolution_**: 0.4A for solid state
+- **_Symmetry_**: lower than your space group, check the HKL range at top window, make sure cover both positive and negative HKL.
+  
+4. Parameters for the strategy determination:
+- **_Crystal to detector_**: _40mm_ standard (50mm if long axis), click ok
+- **_Shortest normalized exposure time_**: 0.5
+- **_Select Scan Parameter_**:
+  - **_Frame angle_**: 0.5 degree
+  - **_Frame time_**: depending on crystal can change time per step, <5s. we use 2 sec for iridates
+  
+5. <mark>Collect</mark> -> <mark>Run Experiment</mark>
+- Add Crystal video into 2
+- Append strategy
+- **_Validate_** to make sure it’ll run
+- **_Execute_**
+
+6. After collection, find a unit cell with better data: <mark>Evaluate</mark> -> <mark>Determine unit cell</mark>
+- Select image (folder at top), don’t use fast scans use actual scans (samplename_001)
+- when you go to last scan should be _0180
+- **_Harvest spots_**
+  - Min I/signal = 3, harvest
+  - Once harvested, index, index
+  - Pick group, accept, set
+  - Bravais, select one you want
+  - Refine, use more peak, refine until it converge, now have new unit cell
+
+- With the new unit cell, start processing:
+
+7. <mark>Reduce data</mark> -> <mark>integrated images</mark>:
 Select unit cell you just made
 Import runs from experiment (make sure you don’t use the fast scans or use fast scans
 when missing low angle data)
