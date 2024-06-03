@@ -1,6 +1,6 @@
 ---
 layout: post
-title: how to prepare samples 
+title: Grinding and Pelleting Instructions / Reminders
 date: 2023-06-14
 author: Chatty Owl  
 tags: 
@@ -8,8 +8,6 @@ tags:
   - crystal synthesis
 toc:  true
 ---
-
-# Grinding and Pelleting Instructions / Reminders
 
 ## Grinding
 - Take the crucible out of the furnace
