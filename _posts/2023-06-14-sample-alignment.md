@@ -2,7 +2,9 @@
 layout: post
 title: Sample Alignment at QM2 beamline
 date: 2023-06-14
-author: Chatty Owl  
+author: 
+  - Chatty Owl
+  - Weird Kitty  
 tags: 
   - UsefulStuff 
   - QM2
@@ -78,4 +80,6 @@ _Note: If the peak is too far off in wh, then it is probably wrong._
 - Test the orientation matrix by checking for at least 3 peaks that are not parallel to or0 and or1.
 - **Happy Hunting!**
 
-[Aligning a crystal at QM2:](/PostFile/Aligning_QM2.pdf)
+[Aligning a crystal at QM2 crystal at QM2:](/PostFile/Aligning_QM2.pdf)
+
+[Weird Kitty's version:](/PostFile/Aligning2_QM2.pdf)
