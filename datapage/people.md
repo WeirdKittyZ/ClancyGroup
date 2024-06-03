@@ -4,7 +4,7 @@ title: Weird Kitty and Her Scattered Friends
 permalink: /People/
 ---
 
-## The Weird Kitty  _(cryZ)_
+## The Weird Kitty  _(monoZ)_
 So, this kitty can do some physics...doesn't want to write...and She wants to have the viscacha lifestyle:
 
 <p align="center"> <em>Finding moments of peacefulness in the cruel nature.</em> </p>
@@ -15,7 +15,7 @@ do goHome.mac
 ```
 ![placeholder](/Pic/kitty.jpeg){: .align-center}
 
-## The Chatty Owl  _(monoY)_
+## The Chatty Owl  _(cryY)_
 This is Weird Kitty's friend, she is Chatty Owl (aka. The Cold Finger), and she can do some physics too... She is very strong...  
 
 > I can take down everyone in this group.
