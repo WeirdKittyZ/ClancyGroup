@@ -58,4 +58,4 @@ the tweezers, remove one of the small disks.
 - Go find Qiang and tell him you’re ready for re-firing.
 
   
-[Grinding and pelleting instructions/ Reminders](_posts/PostFile/Grinding_Pelleting.pdf)
+[Grinding and pelleting instructions/ Reminders](/PostFile/Grinding_Pelleting.pdf)
