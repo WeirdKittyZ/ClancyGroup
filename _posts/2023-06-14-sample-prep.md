@@ -55,7 +55,7 @@ the tweezers, remove one of the small disks.
 - Close the dial, gently pump the press handle until you see the black cap of the pressing set fall.
 - Open the dial, take the pressing set and place onto the clean surface again.
 - Disassemble the set, place the pellet in the crucible.
-- Go find Qiang and tell him you’re ready for re-firing.
+- you’re ready for re-firing.
 
   
 [Grinding and pelleting instructions/ Reminders](/PostFile/Grinding_Pelleting.pdf)
