@@ -8,6 +8,8 @@ math: true
 toc:  true
 ---
 
+_This post contains relevant links to apps or websites you may need._
+
 ## Crystal Structure Visualizer 
 <a href="https://jp-minerals.org/vesta/en/download.html">VESTA</a> (app)
 - 3D, can move crystal around
@@ -82,8 +84,6 @@ conda deactivate nexpyenv
 <a href="https://neutrons.ornl.gov/nxs/2021/lectures">Oak Ridge summer school</a>
 
 <a href="https://ocw.mit.edu/courses/3-091sc-introduction-to-solid-state-chemistry-fall-2010/pages/crystalline-materials/15-introduction-to-crystallography/">Basic idea of x-ray diffraction</a> (lec 15-18)
-
-
 
 
 <a href=""></a>
