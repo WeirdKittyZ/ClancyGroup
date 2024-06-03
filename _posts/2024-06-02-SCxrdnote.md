@@ -5,7 +5,7 @@ date: 2024-06-2
 author: Weird Kitty  
 tags: 
   - UsefulStuff 
-toc:  true
+toc:  false
 ---
 
 _This is a guide for conducting Single Crystal XRD using Bruker D8 Venture Duo with APEX4._
