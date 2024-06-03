@@ -6,6 +6,7 @@ avatar: /Pic/kitty.jpeg
 paginate: 10
 permalink: pretty
 cover_image: /Pic/bg.jpeg
+baseurl: ""
 
 # Gems
 plugins:
