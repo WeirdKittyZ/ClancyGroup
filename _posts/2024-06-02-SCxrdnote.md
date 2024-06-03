@@ -12,21 +12,21 @@ _This is a guide for conducting Single Crystal XRD using Bruker D8 Venture Duo w
 
 
 **On APEX4:**
-<mark>**Left side bar**</mark> and <mark>right side window</mark>
-1. Create new project New sample (top left) (always save other people’s old projects), fill
-in crystal information
+
+<mark>Left side bar</mark> and **_right side window_**
+1. Create new project New sample (top left) (always save other people’s old projects), fill in crystal information.
 
 **On diffractometer:**
 - Mount crystal
 - Close the door when detector is moving
 - Physically center with goniometer
-o Up/down movement is higher one
-o Left right is lower one
-- Turn on the light bottom at right side of the di􀆯ractometer
+    - Up/down movement is higher one
+    - Left right is lower one
+- Turn on the light bottom at right side of the diffractometer
 
 **On APEX4:**
-<mark>**Left side bar**</mark> and <mark>right side window</mark>
-Set UP -> Center Crystal: Click Center once mounted
+<mark>*Left side bar**</mark> and <mark>right side window</mark>
+<mark>**Set UP**</mark> -> <mark>**Center Crystal**</mark>: Click <mark>Center</mark> once mounted
 - Open doors on di􀆯ractometer
 - Align once, rotate 90
 - Align again, rotate 90
