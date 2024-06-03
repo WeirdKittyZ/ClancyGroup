@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Single Crystal XRD using Bruker D8 Venture Duo
+title: Single Crystal XRD
 date: 2024-06-2
 author: Weird Kitty  
 tags: 
