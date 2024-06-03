@@ -9,6 +9,8 @@ tags:
 toc:  true
 ---
 
+_This is the grinding and pelleting reminder for sample preparation_
+
 ## Grinding
 - Take the crucible out of the furnace
 - Choose a medium mortar, clean it with acetone.
