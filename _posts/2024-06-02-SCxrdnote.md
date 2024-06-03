@@ -94,4 +94,4 @@ This will export required files for refinement, follow the step by x-prep.
 
 10. Start refinement. 
 
-[Notes](/PostFile/SCXRD.pdf)
+[PDF Version](/PostFile/SCXRD.pdf)
