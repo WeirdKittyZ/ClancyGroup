@@ -6,8 +6,7 @@ author:
   - Chatty Owl
   - Weird Kitty  
 tags: 
-  - UsefulStuff 
-  - QM2
+  - Beamline
 toc:  true
 ---
 
