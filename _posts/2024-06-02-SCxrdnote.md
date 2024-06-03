@@ -75,20 +75,23 @@ Create new project New sample (top left) (always save other people’s old proje
 - With the new unit cell, start processing:
 
 7. <mark>Reduce data</mark> -> <mark>integrated images</mark>:
-Select unit cell you just made
-Import runs from experiment (make sure you don’t use the fast scans or use fast scans
-when missing low angle data)
-resolution limit: 0.4
-Refinement options:
-XYZ box size to 0.8,0.8,1.2 or 1,1,2 depends on your crystal
-Integration options:
-More options -> Algorithm -> Monte Carlo simulation: 32, start integration
-Reduce data -> Scale
-Symmetries: (Laue and Point)
-Mu*r : 0.1 or 0.2
-Start
-Refine
-Examine data -> Analyze data (x-prep)
-This will export required files for refinement
+- Select unit cell you just made
+- Import runs from experiment (make sure you don’t use the fast scans or use fast scans when missing low angle data)
+- **_Resolution limit_**: 0.4
+- **_Refinement options_**:
+    - XYZ box size to _0.8, 0.8, 1.2_ or _1,1,2_ depends on your crystal
+- **_Integration options_**:
+    - More options -> Algorithm -> _Monte Carlo simulation_: 32, **_start integration_**
+
+8. <mark>Reduce data</mark> -> <mark>Scale</mark>
+- **_Symmetries_**: (Laue and Point Group)
+- Mu*r : 0.1 or 0.2, probably not need to change
+- **_Start_**
+- **_Refine_**
+
+9. <mark>Examine data</mark> -> <mark>Analyze data (x-prep)</mark>
+This will export required files for refinement, follow the step by x-prep.
+
+10. Start refinement. 
 
 [Notes](/PostFile/SCXRD.pdf)
