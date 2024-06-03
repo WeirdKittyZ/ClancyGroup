@@ -4,8 +4,7 @@ title: Grinding and Pelleting Instructions / Reminders
 date: 2023-06-14
 author: Chatty Owl  
 tags: 
-  - UsefulStuff 
-  - crystal synthesis
+  - Crystal-Synthesis-Characterization
 toc:  true
 ---
 
