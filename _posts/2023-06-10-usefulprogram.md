@@ -45,6 +45,7 @@ _This post contains relevant links to apps or websites you may need._
 
 ## Synchrotron
 <a href="https://certif.com/spec_manual/idx.html">SPEC: User Manual and Tutorials</a>
+<a href="https://github.com/NSLS-II/edrixs">edRIXS</a>
 
 ## PDF
 <a href="https://tproffen.github.io/DiffuseCode/">DISCUS</a>
