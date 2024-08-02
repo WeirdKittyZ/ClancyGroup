@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Useful Program / Website for the Group
-date: 2024-05-01
+date: 2024-08-01
 tags: 
   - UsefulStuff
 math: true
@@ -55,7 +55,10 @@ _This post contains relevant links to apps or websites you may need._
 <a href="https://xasdb.lightsource.ca/">CLS X-ray Absorption Spectroscopy (XAS) Database</a>
 
 <a href="https://pypi.org/project/reixs/">CLS REIXS Analysis</a>
- 
+
+<a href="https://winxas.de/">WinXAS</a>
+WinXAS is a free software for analyzing X-ray absorption spectroscopy data.
+
 <a href="https://www.quanty.org/start">Quanty</a>
 - A quantum many body script language
 
