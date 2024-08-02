@@ -46,7 +46,14 @@ _This post contains relevant links to apps or websites you may need._
 ## Synchrotron
 <a href="https://certif.com/spec_manual/idx.html">SPEC: User Manual and Tutorials</a>
 
+## PDF
+<a href="https://tproffen.github.io/DiffuseCode/">DISCUS</a>
+- A general program to generate disordered atomic structures and compute the corresponding experimental data such as single crystal diffuse scattering or the atomic pair distribution function (PDF).
+
 ## XAS
+
+<a href="https://xasdb.lightsource.ca/">CLS X-ray Absorption Spectroscopy (XAS) Database</a>
+
 <a href="https://pypi.org/project/reixs/">CLS REIXS Analysis</a>
  
 <a href="https://www.quanty.org/start">Quanty</a>
@@ -61,6 +68,9 @@ _This post contains relevant links to apps or websites you may need._
 - XAS Data Processing
 - How to use Athena:  <a href="https://www.youtube.com/playlist?list=PLyzX_pouV65vbohf_puwlg9fGNjJGpKpd">EXAFS, XANES Data fitting using Athena (By Bruce Ravel)</a>
 
+<a href="https://xraypy.github.io/xraylarch/">Larch</a>
+- XAS processing and analyzing X-ray absorption
+- python based
 
 ## Data Processing
 <a href="http://bokeh.org/">Bokeh</a>
