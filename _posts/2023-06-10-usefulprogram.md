@@ -93,7 +93,12 @@ conda deactivate nexpyenv
 
 <a href="https://pymca.sourceforge.net/download.html">PyMca</a>
 -  GUI to plot and quickly visualize synchrotron data.
-  
+
+<a href="https://plotly.com/python/">Plotly</a>
+-  For python plot
+
+<a href="https://developer.mantidproject.org/MVPDesign.html">MVP Design for GUI</a>
+
 ## Useful Online Lectures
 <a href="https://neutrons.ornl.gov/nxs/2021/lectures">Oak Ridge summer school</a>
 
