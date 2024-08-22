@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rietveld Refinement
-date: 2024-06-03
+date: 2024-08-022
 author: Weird Kitty
 tags: 
   - Crystal-Synthesis-Characterization 
@@ -29,7 +29,7 @@ Find your cif file in <a href="https://icsd-fiz-karlsruhe-de.libaccess.lib.mcmas
 ### Pattern 
 - Data file/ peak shape:
   - **Data/format**: free format, choose the experimental data converted before.
-  - **Refinement/simulation**: x-ray, wavelength: Cu (note: I2/I1 = 0)
+  - **Refinement/simulation**: x-ray, wavelength: Cu (note: I2/I1 = 0) or Co (note: I2/I1 = 0.5)
   - **Pattern calculation/peak shape** peak shape: pseudo-voigt (Gaussian + Lagrangian distribution); range 
 - Background type
   - 6-coefficients polynomial function 
@@ -46,27 +46,35 @@ Find your cif file in <a href="https://icsd-fiz-karlsruhe-de.libaccess.lib.mcmas
   - Check if info imported correctly from cif 
 
 ### Refinement
-- Minimize chi2. 
-- Red: fixed by symmetry. 
-	- Cycles of refinement: 5-10
+- This will minimize chi2. 
+- Red block: fixed by symmetry.
+  - Cycles of refinement: 5-10
+  - Reflections ordering: Each cycle
+    
 - **First:**
-  - Background: d0-d1
-  - Profile: factor-scale
-  - Run Fullprof program, close, re-load PCR file (yes: save refinement)
+  - Background: d0-d3
+  - Profile: set factor-scale to 0.003 (DO NOT CLICK) set to some reasonable peak height. 
+  - Profile: click cell parameter
+  - Run Fullprof program, close, re-load PCR file (yes: save refinement, no: if it collapsed) 
     
 - **Second:**
-  - Instrument: zero
-  - Profile: cell parameter
+  - Profile: click factor-scale
+  - Profile: click cell parameter
      
-- **Third:** change shape  
+- **Third:**
+  - Background: click all
+  - Instrument: zero
+    
+- **Fourth:**
+- change shape  
   - Profile: FWHM Parameter UVW
   - Shape parameter: eta_0
 
-- **Fourth:** fix all refined parameter. 
+- **Fifth:** fix all refined parameter. 
   - Atom: change B for each element.
   - Oxygen moves a lot, might crush the program.
 
-- **Fifth**: fix all atom refined parameter, restart first and second step.
+- **Sixth**: fix all atom refined parameter, restart first and second step.
 
 ### Save file 
 Run WinPlotr -> File -> open rieveld data file -> 101. FullProf PRF file 
