@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rietveld Refinement
-date: 2024-08-022
+date: 2024-08-22
 author: Weird Kitty
 tags: 
   - Crystal-Synthesis-Characterization 
