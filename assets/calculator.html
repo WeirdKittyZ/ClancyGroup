@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    input { margin: 5px; padding: 5px; }
+    button { padding: 5px 10px; }
+    #result { margin-top: 10px; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+<h3>Calculator</h3>
+<div>
+  <input type="number" id="num1" placeholder="Enter number 1">
+  <input type="number" id="num2" placeholder="Enter number 2">
+  <button onclick="calculate()">Calculate</button>
+</div>
+
+<div id="result"></div>
+
+<script>
+  function calculate() {
+    var num1 = parseFloat(document.getElementById('num1').value);
+    var num2 = parseFloat(document.getElementById('num2').value);
+    if (isNaN(num1) || isNaN(num2)) {
+      document.getElementById('result').innerText = 'Please enter valid numbers!';
+      return;
+    }
+    var result = num1 + num2;
+    document.getElementById('result').innerText = 'Result: ' + result;
+  }
+</script>
+
+</body>
+</html>
