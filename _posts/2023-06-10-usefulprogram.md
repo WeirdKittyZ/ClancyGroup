@@ -43,8 +43,15 @@ _This post contains relevant links to apps or websites you may need._
 - Single crystal refinement
 - <a href="https://www.chem.ubc.ca/sites/default/files/wysiwyg_uploads/facilities/x-ray/ilia_guzei_notes_on_olex2.pdf">note</a>
 
+## Neutron
+<a href="https://www.ncnr.nist.gov/resources/n-lengths/">NIST Neutron Scattering Lengths and Cross Sections</a>
+
+<a href="https://millenia.cars.aps.anl.gov/gsecars/ruby/ruby.htm">Fluorescense pressure calculation and thermocouple tools</a>
+
+
 ## Synchrotron
 <a href="https://certif.com/spec_manual/idx.html">SPEC: User Manual and Tutorials</a>
+
 <a href="https://github.com/NSLS-II/edrixs">edRIXS</a>
 
 ## PDF
