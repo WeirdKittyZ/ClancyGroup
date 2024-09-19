@@ -8,7 +8,7 @@ window.onload = function() {
     // Attach event listener to each button in every calculator
     var button = calculator.querySelector('.calculateButton');
     button.addEventListener('click', function() {
-      // Get the input values
+      // Get the input values from the current calculator
       var num1 = parseFloat(calculator.querySelector('.num1').value);
       var num2 = parseFloat(calculator.querySelector('.num2').value);
       
@@ -21,7 +21,7 @@ window.onload = function() {
       // Perform the sum
       var result = num1 + num2;
 
-      // Display the result in the result div
+      // Display the result in the result div of the current calculator
       calculator.querySelector('.result').innerText = 'Result: ' + result;
     });
   });
