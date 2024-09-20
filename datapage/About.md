@@ -17,4 +17,4 @@ _This website is dedicated to the current and future members of the Capybara fam
 <br>
 <br>
 
-_Note: Most of the images used in this website are created by both humans and AI_
+_Note: Most of the images used in this website are created by both humans and AI. This website is also created with extensive help from AI._
