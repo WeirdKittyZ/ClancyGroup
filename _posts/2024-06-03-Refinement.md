@@ -22,9 +22,9 @@ Find your cif file in <a href="https://icsd-fiz-karlsruhe-de.libaccess.lib.mcmas
   - File -> save data as INSTRUM_0 file
 ## Set up ED PCR (double click to save!!)
 - Change cif to pcr -> select cif file -> save
-### General
+## General
 - Change title
-### Pattern 
+## Pattern 
 - Data file/ peak shape:
   - **Data/format**: free format, choose the experimental data converted before.
   - **Refinement/simulation**: x-ray, wavelength: Cu (note: I2/I1 = 0) or Co (note: I2/I1 = 0.5)
@@ -33,7 +33,7 @@ Find your cif file in <a href="https://icsd-fiz-karlsruhe-de.libaccess.lib.mcmas
   - 6-coefficients polynomial function 
 - Excluded region 
 	- Use when there is huge impurity peak 
-### Phase 
+## Phase 
 - Change name of phase
 - Coeff to calculate the weight: Choose calculated automatically !!!
 - Contribution of Patterns:
@@ -41,7 +41,7 @@ Find your cif file in <a href="https://icsd-fiz-karlsruhe-de.libaccess.lib.mcmas
   - Change peak shape: pseudo-voigt
 - Symmetry:
   - Check if info imported correctly from cif 
-### Refinement
+## Refinement
 - This will minimize chi2. 
 - Red block: fixed by symmetry.
   - Cycles of refinement: 5-10
@@ -71,7 +71,7 @@ Find your cif file in <a href="https://icsd-fiz-karlsruhe-de.libaccess.lib.mcmas
 
 - **Sixth**: fix all atom refined parameter, restart first and second step.
 
-### Save file 
+## Save file 
 Run WinPlotr -> File -> open rieveld data file -> 101. FullProf PRF file 
 
 Save data as multicolumn data 
@@ -152,9 +152,8 @@ For experimental data in XRDML:
   - general -> tick refine unit cell -> Calculate -> Refine -> untick 
 - refine the first phase
   - repeat steps in the single phase refinement
-
-
-#### Guide to GSAS-II plot window
+    
+## Guide to GSAS-II plot window
 - click **house button** -> reset to the original view
 - click **four-way arrow** -> drag the plot in all direction -> unclick if you don’t need it 
 - click **magnifier** -> draw a rectangle -> zoom in the selected region -> unclick it again if you don’t need it 
