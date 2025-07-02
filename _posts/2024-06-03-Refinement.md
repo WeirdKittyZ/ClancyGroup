@@ -10,25 +10,25 @@ toc:  true
 
 _This is a guide on rietveld refinement with FullProf and GSAS-II._
 
-## Find CIF file
+### Find CIF file
 Find your cif file in <a href="https://icsd-fiz-karlsruhe-de.libaccess.lib.mcmaster.ca/search/basic.xhtml;jsessionid=03FE8BA10802629753885D333D75DAC1
 ">ICSD</a>. Log in with your MacID. 
 - Enter composition (element) + number of elements (if there is impurity)
   
-# FullProf
+## FullProf
 
-## Change file form
+### Change file form
 - For experimental data in XRDML:
   - Run WinPlotr -> File -> open raw data file -> 58. XRDML multiscans (Panalytical) -> counts
   - File -> save data as INSTRUM_0 file
 
-## Set up ED PCR (double click to save!!)
+### Set up ED PCR (double click to save!!)
 - Change cif to pcr -> select cif file -> save
 
-### General
+#### General
 - Change title
   
-### Pattern 
+#### Pattern 
 - Data file/ peak shape:
   - **Data/format**: free format, choose the experimental data converted before.
   - **Refinement/simulation**: x-ray, wavelength: Cu (note: I2/I1 = 0) or Co (note: I2/I1 = 0.5)
@@ -38,7 +38,7 @@ Find your cif file in <a href="https://icsd-fiz-karlsruhe-de.libaccess.lib.mcmas
 - Excluded region 
 	- Use when there is huge impurity peak 
 
-### Phase 
+#### Phase 
 - Change name of phase
 - Coeff to calculate the weight: Choose calculated automatically !!!
 - Contribution of Patterns:
@@ -47,7 +47,7 @@ Find your cif file in <a href="https://icsd-fiz-karlsruhe-de.libaccess.lib.mcmas
 - Symmetry:
   - Check if info imported correctly from cif 
 
-### Refinement
+#### Refinement
 - This will minimize chi2. 
 - Red block: fixed by symmetry.
   - Cycles of refinement: 5-10
@@ -77,13 +77,13 @@ Find your cif file in <a href="https://icsd-fiz-karlsruhe-de.libaccess.lib.mcmas
 
 - **Sixth**: fix all atom refined parameter, restart first and second step.
 
-### Save file 
+#### Save file 
 Run WinPlotr -> File -> open rieveld data file -> 101. FullProf PRF file 
 
 Save data as multicolumn data 
 
  
-## Two phase refinement
+### Two phase refinement
 _**Easiest way:** start a new PCR file do one phase refinement, and use refined parameter to do two phase refinement in the original file._
 
 - Second phase need to be entered manually. 
@@ -105,15 +105,15 @@ _**Easiest way:** start a new PCR file do one phase refinement, and use refined 
 - Under phase 2 -> profile
 - Start refinement
 
-## Info export
+### Info export
 At the bottom of SUM file, can read out percentage of two phase. 
 
 
-# GSAS - II
+## GSAS - II
 
 It is recommended to put powder data file, instrument file (if have any) and the cif file in one folder. Once gsas-ii runs, there will be two windows, **GSAS-II project** and **GSAS-II plots** on the screen. The following steps are mainly performed on GSAS-II project window. A short guide of plot window is provided at the end. 
 
-### Import data file:
+#### Import data file:
 
 For experimental data in XRDML:
 - Import -> Powder data -> from Panalytical xrdml (xml) file  -> select data file -> open 
@@ -121,12 +121,12 @@ For experimental data in XRDML:
 - instrument parameter (under PWDR data tree)  -> select source type (CoKa or CuKa) 
 - Sample parameter (under PWDR data tree) -> diffractometer type -> Brag-Brentano
 
-### Import cif file:
+#### Import cif file:
 - Import -> Phase -> from cif file -> select cif file -> open 
 - A new window pops up -> Yes -> name this phase -> Ok -> tick 0) PWDR xxx. xrdml Scan 1 (connect phase info to data)  -> Ok
 
 
-### Single phase refinement: 
+#### Single phase refinement: 
 - when refining each parameter, repeat the process until Max shift/sigma ~ 0.1
 
 
@@ -160,7 +160,7 @@ For experimental data in XRDML:
   - Refined plot has automatically saved in the folder so you can just shut down the program
 
 
-### Two phase refinement: 
+#### Two phase refinement: 
 - import the second cif file the same way like the first one  
   - refine background
   - refine the second phase
@@ -171,7 +171,7 @@ For experimental data in XRDML:
   - repeat steps in the single phase refinement
 
 
-### Guide to GSAS-II plot window
+#### Guide to GSAS-II plot window
 - click **house button** -> reset to the original view
 - click **four-way arrow** -> drag the plot in all direction -> unclick if you don’t need it 
 - click **magnifier** -> draw a rectangle -> zoom in the selected region -> unclick it again if you don’t need it 
