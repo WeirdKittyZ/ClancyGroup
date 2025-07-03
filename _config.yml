@@ -44,3 +44,6 @@ author:
   name: The Weird Kitty
   url: weirdkittyz.github.io/
   email: ziy2@mcmaster.ca
+
+image_path: '{{ site.baseurl }}/Pic'
+pdf_path: '{{ site.baseurl }}/PostFile'
