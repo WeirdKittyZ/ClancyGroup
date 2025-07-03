@@ -105,6 +105,7 @@ At the bottom of SUM file, can read out percentage of two phase.
 
 # GSAS - II
 It is recommended to put powder data file, instrument file (if have any) and the cif file in one folder. Once gsas-ii runs, there will be two windows, **GSAS-II project** and **GSAS-II plots** on the screen. The following steps are mainly performed on GSAS-II project window. A short guide of plot window is provided at the end. 
+- If it refuses to work right away, try entering an instrument shift of ~0.3 as a starting point for the upstairs machine, as GSAS can struggle finding a shift this large while refining the BG function.
 ## Import data file:
 For experimental data in XRDML:
 - Import -> Powder data -> from Panalytical xrdml (xml) file  -> select data file -> open 
@@ -115,14 +116,16 @@ For experimental data in XRDML:
 - Import -> Phase -> from cif file -> select cif file -> open 
 - A new window pops up -> Yes -> name this phase -> Ok -> tick 0) PWDR xxx. xrdml Scan 1 (connect phase info to data)  -> Ok
 ## Single phase refinement: 
-- when refining each parameter, repeat the process until Max shift/sigma ~ 0.1
+- Cycle of refinements upped from 3, its under the controls tab
+- When refining each parameter, repeat the process until Max shift/sigma ~ 0.1
   
   - background
     - background function: chebyschev-1
     - number of coeff: 5
     - Calculate -> Refine -> select a folder to save the file -> name it -> save  -> click (ok: save refinement ; cancel: if collapsed)
     - if collapsed, try different background function (a) and number of coeff (b) 
-
+    - Note: For particularily awful BGs, can set the chebyschev-1 parameter to 10, click "compute auto background" and "Set fixed points and fit". If there are too little points, may have to turn down chebyschev-1 parameters. (this brute forces a background into fixed data points, and you can manually edit the points by going to the plot area -> fixed points dropdown at the top -> add/move/remove/delete to adjust them). The more wiggly/all over the place your BG is, the more chebyschev-1 coefficients you should use.
+      
   - Unit cell 
     - click the named phase -> tick Refine unit cell -> Calculate -> Refine
     - leave it ticked, so unit cell will be refined automatically as other parameters are refined
@@ -152,7 +155,12 @@ For experimental data in XRDML:
   - general -> tick refine unit cell -> Calculate -> Refine -> untick 
 - refine the first phase
   - repeat steps in the single phase refinement
-    
+
+## Refine Prefered Orientation:
+  - PhaseName -> Data -> Enter Orientation and Tick "March-Dollase Ratio"
+  - Under the same tab, can also refine grainsize, this shows up as peak widening
+
+       
 ## Guide to GSAS-II plot window
 - click **house button** -> reset to the original view
 - click **four-way arrow** -> drag the plot in all direction -> unclick if you don’t need it 
