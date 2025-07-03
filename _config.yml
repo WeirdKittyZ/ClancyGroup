@@ -3,10 +3,10 @@ title: "Weird Kitty"
 description: "Weird Kitty's Website"
 url: "https://weirdkittyz.github.io"   # This should NOT include the repo name
 baseurl: "/ClancyGroup"                # This SHOULD include the repo name, starting with a slash
-avatar: /Pic/kitty.jpeg
+avatar: "/ClancyGroup/Pic/kitty.jpeg"
 paginate: 10
 permalink: pretty
-cover_image: /Pic/bg.jpeg
+cover_image: "/ClancyGroup/Pic/bg.jpeg"
 
 # Gems
 plugins:
@@ -42,5 +42,5 @@ sass:
 # Specify the author for blog posts
 author:
   name: The Weird Kitty
-  url: weirdkittyz.github.io/ClancyGroup/
+  url: weirdkittyz.github.io/
   email: ziy2@mcmaster.ca
