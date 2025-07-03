@@ -3,10 +3,10 @@ title: "Weird Kitty"
 description: "Weird Kitty's Website"
 url: "https://weirdkittyz.github.io"
 baseurl: "/ClancyGroup"
-avatar: "/ClancyGroup/Pic/kitty.jpeg"
+avatar: "/Pic/kitty.jpeg"
 paginate: 10
 permalink: pretty
-cover_image: "/ClancyGroup/Pic/bg.jpeg"
+cover_image: "/Pic/bg.jpeg"
 
 # Gems
 plugins:
