@@ -1,8 +1,8 @@
 # Setup
 title: "Weird Kitty"
 description: "Weird Kitty's Website"
-url: "https://weirdkittyz.github.io"   # This should NOT include the repo name
-baseurl: "/ClancyGroup"                # This SHOULD include the repo name, starting with a slash
+url: "https://weirdkittyz.github.io"
+baseurl: "/ClancyGroup"
 avatar: "/ClancyGroup/Pic/kitty.jpeg"
 paginate: 10
 permalink: pretty
