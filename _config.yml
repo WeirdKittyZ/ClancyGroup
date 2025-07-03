@@ -1,7 +1,7 @@
 # Setup
 title: "Weird Kitty"
 description: "Weird Kitty's Website"
-url: "WeirdKittyZ.github.io"
+url: "weirdkittyz.github.io/ClancyGroup/"
 avatar: /Pic/kitty.jpeg
 paginate: 10
 permalink: pretty
@@ -32,7 +32,7 @@ exclude:
 logo: logo.png
 social:
   name: The Weird Kitty
-  links: https://weirdkittyz.github.io/
+  links: https://weirdkittyz.github.io/ClancyGroup/
 lang: en
 
 sass:
@@ -42,5 +42,5 @@ sass:
 # Specify the author for blog posts
 author:
   name: The Weird Kitty
-  url: WeirdKittyZ.github.io
+  url: weirdkittyz.github.io/ClancyGroup/
   email: ziy2@mcmaster.ca
