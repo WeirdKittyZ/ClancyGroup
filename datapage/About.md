@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /About/
 ---
-![placeholder](({{ site.image_path }}/capybara_family.jpeg)){: .align-center}
+![placeholder]({{ site.image_path }}/capybara_family.jpeg){: .align-center}
 
 <center>
 The First Generation of the Capybara Family.
