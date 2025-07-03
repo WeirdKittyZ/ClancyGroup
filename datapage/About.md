@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /About/
 ---
-![placeholder](/ClancyGroup/Pic/capybara_family.jpeg){: .align-center}
+![placeholder](/Pic/capybara_family.jpeg){: .align-center}
 
 <center>
 The First Generation of the Capybara Family.
