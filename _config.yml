@@ -1,12 +1,12 @@
 # Setup
 title: "Weird Kitty"
 description: "Weird Kitty's Website"
-url: "weirdkittyz.github.io/ClancyGroup/"
+url: "https://weirdkittyz.github.io"   # This should NOT include the repo name
+baseurl: "/ClancyGroup"                # This SHOULD include the repo name, starting with a slash
 avatar: /Pic/kitty.jpeg
 paginate: 10
 permalink: pretty
 cover_image: /Pic/bg.jpeg
-baseurl: "weirdkittyz.github.io/ClancyGroup/"
 
 # Gems
 plugins:
