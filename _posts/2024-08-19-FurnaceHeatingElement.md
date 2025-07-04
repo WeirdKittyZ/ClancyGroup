@@ -11,5 +11,7 @@ toc:  false
 _This is a guide on how to replace furnace heating element._
 
 
-[PDF Version Click Here](/PostFile/HowtoReplaceFurnaceHeatingElement.pdf)
+[PDF Version Click Here]({{ site.baseurl }}/PostFile/HowtoReplaceFurnaceHeatingElement.pdf)
 
+tesst2
+<a href="{{ site.baseurl }}/PostFile/HowtoReplaceFurnaceHeatingElement.pdf" target="_blank">PDF Version Click Here</a>
