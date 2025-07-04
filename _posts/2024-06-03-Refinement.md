@@ -20,10 +20,13 @@ Find your cif file in <a href="https://icsd-fiz-karlsruhe-de.libaccess.lib.mcmas
 - For experimental data in XRDML:
   - Run WinPlotr -> File -> open raw data file -> 58. XRDML multiscans (Panalytical) -> counts
   - File -> save data as INSTRUM_0 file
+    
 ## Set up ED PCR (double click to save!!)
 - Change cif to pcr -> select cif file -> save
+  
 ## General
 - Change title
+  
 ## Pattern 
 - Data file/ peak shape:
   - **Data/format**: free format, choose the experimental data converted before.
@@ -32,7 +35,8 @@ Find your cif file in <a href="https://icsd-fiz-karlsruhe-de.libaccess.lib.mcmas
 - Background type
   - 6-coefficients polynomial function 
 - Excluded region 
-	- Use when there is huge impurity peak 
+	- Use when there is huge impurity peak
+   
 ## Phase 
 - Change name of phase
 - Coeff to calculate the weight: Choose calculated automatically !!!
@@ -40,7 +44,8 @@ Find your cif file in <a href="https://icsd-fiz-karlsruhe-de.libaccess.lib.mcmas
   - Click x-ray
   - Change peak shape: pseudo-voigt
 - Symmetry:
-  - Check if info imported correctly from cif 
+  - Check if info imported correctly from cif
+    
 ## Refinement
 - This will minimize chi2. 
 - Red block: fixed by symmetry.
@@ -76,7 +81,6 @@ Run WinPlotr -> File -> open rieveld data file -> 101. FullProf PRF file
 
 Save data as multicolumn data 
 
- 
 ## Two phase refinement
 _**Easiest way:** start a new PCR file do one phase refinement, and use refined parameter to do two phase refinement in the original file._
 
@@ -106,15 +110,18 @@ At the bottom of SUM file, can read out percentage of two phase.
 # GSAS - II
 It is recommended to put powder data file, instrument file (if have any) and the cif file in one folder. Once gsas-ii runs, there will be two windows, **GSAS-II project** and **GSAS-II plots** on the screen. The following steps are mainly performed on GSAS-II project window. A short guide of plot window is provided at the end. 
 - If it refuses to work right away, try entering an instrument shift of ~0.3 as a starting point for the upstairs machine, as GSAS can struggle finding a shift this large while refining the BG function.
+
 ## Import data file:
 For experimental data in XRDML:
 - Import -> Powder data -> from Panalytical xrdml (xml) file  -> select data file -> open 
 - A new window pops up -> click cancel -> Defaults for CuKa lab data -> Ok (you should see a data tree has been added)
 - instrument parameter (under PWDR data tree)  -> select source type (CoKa or CuKa) 
 - Sample parameter (under PWDR data tree) -> diffractometer type -> Brag-Brentano
+
 ## Import cif file:
 - Import -> Phase -> from cif file -> select cif file -> open 
 - A new window pops up -> Yes -> name this phase -> Ok -> tick 0) PWDR xxx. xrdml Scan 1 (connect phase info to data)  -> Ok
+
 ## Single phase refinement: 
 - Cycle of refinements upped from 3, its under the controls tab
 - When refining each parameter, repeat the process until Max shift/sigma ~ 0.1
@@ -146,6 +153,7 @@ For experimental data in XRDML:
     - double click the empty box under refine -> select U -> Calculate -> Refine -> untick
 
   - Refined plot has automatically saved in the folder so you can just shut down the program    
+
 ## Two phase refinement: 
 - import the second cif file the same way like the first one  
   - refine background
@@ -159,8 +167,7 @@ For experimental data in XRDML:
 ## Refine Prefered Orientation:
   - PhaseName -> Data -> Enter Orientation and Tick "March-Dollase Ratio"
   - Under the same tab, can also refine grainsize, this shows up as peak widening
-
-       
+   
 ## Guide to GSAS-II plot window
 - click **house button** -> reset to the original view
 - click **four-way arrow** -> drag the plot in all direction -> unclick if you don’t need it 
