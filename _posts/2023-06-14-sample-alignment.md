@@ -78,7 +78,7 @@ _Note: If the peak is too far off in wh, then it is probably wrong._
 - set this as or1. Change lattice parameters (SPEC: setlat) such that or0 and or1 give close numbers in hkl.
 - Test the orientation matrix by checking for at least 3 peaks that are not parallel to or0 and or1.
 - **Happy Hunting!**
-- 
+ 
 [PDF Version Click Here]({{ site.baseurl }}/PostFile/Aligning_QM2.pdf)
 
 <iframe src="{{ site.baseurl }}/PostFile/Aligning_QM2.pdf" width="100%" height="600px">
