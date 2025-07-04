@@ -13,5 +13,12 @@ _This is a guide on how to replace furnace heating element._
 
 [PDF Version Click Here]({{ site.baseurl }}/PostFile/HowtoReplaceFurnaceHeatingElement.pdf)
 
-tesst2
-<a href="{{ site.baseurl }}/PostFile/HowtoReplaceFurnaceHeatingElement.pdf" target="_blank">PDF Version Click Here</a>
+test 1
+<iframe src="{{ site.baseurl }}/PostFile/HowtoReplaceFurnaceHeatingElement.pdf" width="100%" height="600px">
+    This browser does not support PDFs. Please download the PDF to view it: 
+    <a href="{{ site.baseurl }}/PostFile/HowtoReplaceFurnaceHeatingElement.pdf">Download PDF</a>.
+</iframe>
+
+
+test 2
+<embed src="{{ site.baseurl }}/PostFile/HowtoReplaceFurnaceHeatingElement.pdf" type="application/pdf" width="100%" height="600px" />
