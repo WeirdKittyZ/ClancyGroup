@@ -4,6 +4,7 @@ description: "Weird Kitty's Website"
 url: "https://weirdkittyz.github.io"
 baseurl: "/ClancyGroup"
 avatar: "/Pic/kitty.jpeg"
+keywords: Pat Clancy, McMaster, condensed matter physics, Yijia Zi
 paginate: 10
 permalink: pretty
 cover_image: "/Pic/bg.jpeg"
