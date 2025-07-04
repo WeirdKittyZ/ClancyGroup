@@ -57,4 +57,4 @@ the tweezers, remove one of the small disks.
 - you’re ready for re-firing.
 
   
-[Grinding and pelleting instructions/ Reminders](/PostFile/Grinding_Pelleting.pdf)
+[Grinding and pelleting instructions/ Reminders](../PostFile/Grinding_Pelleting.pdf)
