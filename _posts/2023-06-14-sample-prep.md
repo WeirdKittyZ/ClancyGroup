@@ -56,5 +56,10 @@ the tweezers, remove one of the small disks.
 - Disassemble the set, place the pellet in the crucible.
 - you’re ready for re-firing.
 
-  
-[Grinding and pelleting instructions/ Reminders](../PostFile/Grinding_Pelleting.pdf)
+
+Grinding and pelleting instructions/ Reminders]({{ site.baseurl }}/PostFile/Grinding_Pelleting.pdf)
+
+<iframe src="{{ site.baseurl }}/PostFile/Grinding_Pelleting.pdf" width="100%" height="600px">
+    This browser does not support PDFs. Please download the PDF to view it: 
+    <a href="{{ site.baseurl }}/PostFile/Grinding_Pelleting.pdf">Download PDF</a>.
+</iframe>
