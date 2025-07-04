@@ -96,4 +96,10 @@ This will export required files for refinement, follow the step by x-prep.
 
 10. Start refinement. 
 
-[PDF Version](../PostFile/SCXRD.pdf)
+
+[PDF Version Click Here]({{ site.baseurl }}/PostFile/SCXRD.pdf)
+
+<iframe src="{{ site.baseurl }}/PostFile/SCXRD.pdf" width="100%" height="600px">
+    This browser does not support PDFs. Please download the PDF to view it: 
+    <a href="{{ site.baseurl }}/PostFile/SCXRD.pdf">Download PDF</a>.
+</iframe>
