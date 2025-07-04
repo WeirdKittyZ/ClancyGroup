@@ -79,6 +79,6 @@ _Note: If the peak is too far off in wh, then it is probably wrong._
 - Test the orientation matrix by checking for at least 3 peaks that are not parallel to or0 and or1.
 - **Happy Hunting!**
 
-[PDF Version](/PostFile/Aligning_QM2.pdf)
+[PDF Version](../PostFile/Aligning_QM2.pdf)
 
-[Weird Kitty's version:](/PostFile/Aligning2_QM2.pdf)
+[Weird Kitty's version:](../PostFile/Aligning2_QM2.pdf)
