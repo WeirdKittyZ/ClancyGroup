@@ -1,4 +1,4 @@
-# Weird Kitty's Website <!-- omit in toc -->
+# Weird Kitty Y &middot; Zi's Website <!-- omit in toc -->
 
 This website uses the [Not Pure Poole](https://github.com/vszhub/not-pure-poole) theme. Check out this page for download instructions.
 
