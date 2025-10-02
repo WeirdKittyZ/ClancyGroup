@@ -1,6 +1,7 @@
 # Setup
 title: "Weird Kitty Y &middot; Zi's Research Website"
 description: "YZi's Research Website, research in experimental condensed matter physics, Yijia Zi, McMaster University, and Pat Clancy Group's student Website."
+keywords: ["Yijia Zi", "Pat Clancy", "McMaster University", "YZi research"]
 url: "https://weirdkittyz.github.io"
 baseurl: "/ClancyGroup"
 avatar: "/Pic/kitty.jpeg"
