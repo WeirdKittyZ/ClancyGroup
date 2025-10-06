@@ -2,7 +2,7 @@
 layout: post
 title: Rietveld Refinement
 date: 2025-07-02
-author: Weird Kitty
+author: Weird Kitty, C.Z
 tags: 
   - Crystal-Synthesis-Characterization 
 toc:  true
