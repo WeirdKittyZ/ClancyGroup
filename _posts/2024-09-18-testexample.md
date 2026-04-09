@@ -11,12 +11,6 @@ toc:  false
 
 ### Test:
 
----
-title: Simple Calculator
----
-
-## Try the calculator
-
 <input id="x" type="number" />
 +
 <input id="y" type="number" />
@@ -33,21 +27,66 @@ function add() {
 </script>
 
 ### Another test:
-<h3>Sum Calculator 1</h3>
-<div class="calculator">
-  <input type="number" class="num1" placeholder="Enter number 1">
-  <input type="number" class="num2" placeholder="Enter number 2">
-  <button class="calculateButton">Calculate Sum</button>
-  <div class="result"></div>
-</div>
+## Add Time from Now Calculator
 
-<h3>Sum Calculator 2</h3>
-<div class="calculator">
-  <input type="number" class="num1" placeholder="Enter number 1">
-  <input type="number" class="num2" placeholder="Enter number 2">
-  <button class="calculateButton">Calculate Sum</button>
-  <div class="result"></div>
-</div>
+<p>Current time is taken from your device.</p>
 
-<!-- Link to the external JavaScript file -->
-<script src="/PostFile/Test/calculator.js"></script>
+<label>
+  Days:
+  <input id="days" type="number" value="0" min="0">
+</label>
+<br>
+
+<label>
+  Hours:
+  <input id="hours" type="number" value="0" min="0">
+</label>
+<br>
+
+<label>
+  Minutes:
+  <input id="minutes" type="number" value="0" min="0">
+</label>
+<br><br>
+
+<button onclick="addTime()">Calculate</button>
+
+<h3>Result</h3>
+<p id="result">—</p>
+
+<script>
+function addTime() {
+  const days = Number(document.getElementById("days").value || 0);
+  const hours = Number(document.getElementById("hours").value || 0);
+  const minutes = Number(document.getElementById("minutes").value || 0);
+
+  const now = new Date();
+
+  const totalMinutes =
+    (days * 24 * 60) +
+    (hours * 60) +
+    minutes;
+
+  const future = new Date(now.getTime() + totalMinutes * 60000);
+
+  const optionsDate = {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    weekday: "long"
+  };
+
+  const optionsTime = {
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit"
+  };
+
+  const dateStr = future.toLocaleDateString(undefined, optionsDate);
+  const timeStr = future.toLocaleTimeString(undefined, optionsTime);
+
+  document.getElementById("result").textContent =
+    `${dateStr}, ${timeStr}`;
+}
+</script>
+
