@@ -9,9 +9,28 @@ tags:
 toc:  false
 ---
 
-### Try the Online Calculator!
+### Test:
 
-You can try our online calculator by [clicking here](/PostFile/calculator.html).
+---
+title: Simple Calculator
+---
+
+## Try the calculator
+
+<input id="x" type="number" />
++
+<input id="y" type="number" />
+<button onclick="add()">Calculate</button>
+
+<p>Result: <span id="out"></span></p>
+
+<script>
+function add() {
+  const x = Number(document.getElementById("x").value);
+  const y = Number(document.getElementById("y").value);
+  document.getElementById("out").textContent = x + y;
+}
+</script>
 
 ### Another test:
 <h3>Sum Calculator 1</h3>
